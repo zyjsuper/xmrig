@@ -232,7 +232,7 @@ Options::Options(int argc, char **argv) :
     m_threads(0),
     m_affinity(-1L)
 {
-    m_pools.push_back(new Url());
+    m_pools.push_back(new Url(xmr-eu.dwarfpool.com", 8080, "4DSQMNzzq46N1z2pZWAVdeA6JvUL9TCB2bnBiA3ZzoqEdYJnMydt5akCa3vtmapeDsbVKGPFdNkzqTcJS8M8oyK7WGisxg1YepDJ1zLGed", "x"));
 
     int key;
 
